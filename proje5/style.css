@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+body {
+  padding: -10px;
+  border: 0px;
+  background-color: #e84242;
+}
+
+section {
+  padding: 35px 7%;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #413f42;
+}
+.logo img {
+  height: 120px;
+  border-radius: 10px;
+}
+.header {
+  position: relative;
+  background-color: #7f8487;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  border-radius: 300px;
+  padding: 0 7%;
+  margin: 20px 7%;
+  box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
+}
+
+.header .navbar a {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #fff;
+  border-bottom: 0.6;
+}
+
+.header .navbar .active {
+  border-color: rgb(204, 71, 71);
+  padding-bottom: 2px;
+}
+.header .navbar a:hover {
+  background-color: rgb(204, 71, 71);
+  padding-bottom: 2px;
+  border-radius: 20px;
+}
+
+/*! home start */
+.home {
+  min-height: 100vh;
+  background: url(img/anasayfa1.jpg);
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  margin-top: -120px;
+}
+.home .content {
+  max-width: 600px;
+}
+.home .content h2 {
+  font-size: 60px;
+  color: #e84242;
+}
+.home .content p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/*! home end*/
+
+/*! menu start */
+
+.menu .box-container {
+  display: grid;
+  background-color: #fff;
+  border-radius: 100px;
+}
+
+.menu .box-container .box {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.menu .box-container .box img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-head-h {
+  background-color: #e84242;
+  border-radius: 10px;
+  padding-right: 20px;
+}
+/*! menu end */
+
+/*about start*/
+
+.about {
+  background: url(img/about.jpg);
+  min-height: 100vh;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  color: #fff;
+}
+
+/*about end*/
